@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070a08">
+  <meta name="description" content="Sertão Labs — fábrica de software do IFPB, Campus Princesa Isabel. Ideias que viram soluções digitais.">
+  <title>Sertão Labs — Tecnologia com identidade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="page-grid"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Sertão Labs - início">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" fill="none">
+          <path d="M12 23 3 32l9 9M52 23l9 9-9 9" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M31 51V17c0-5 8-5 8 0v8m-8 3h-5c-4 0-6-3-6-7v-4m11 17h5c4 0 6-3 6-7v-3" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+          <path d="M18 56c9-4 19-4 28 0" stroke="#54ed62" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="brand-name">Sertão<span>Labs</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#sobre">Sobre</a>
+      <a href="#atuacao">Atuação</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#processo">Nosso processo</a>
+      <a class="nav-cta" href="#contato">Fale com a gente <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> FÁBRICA DE SOFTWARE · IFPB</div>
+        <h1>Ideias do Sertão.<br><span class="gradient-text">Soluções para o mundo.</span></h1>
+        <p class="hero-description">Somos a Sertão Labs, uma iniciativa de desenvolvimento de software do IFPB — Campus Princesa Isabel. Transformamos ideias e desafios em soluções digitais.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#sobre">Conheça a Sertão Labs <span>↘</span></a>
+          <a class="text-link" href="#atuacao">O que fazemos <span>→</span></a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span> Tecnologia, criatividade e identidade sertaneja.</div>
+      </div>
+
+      <div class="hero-art" aria-label="Ilustração abstrata de tecnologia e paisagem do sertão">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="orbit orbit-c"></div>
+        <div class="art-glow"></div>
+        <div class="art-card">
+          <div class="art-card-top"><span></span><span></span><span></span><small>sertão_labs.js</small></div>
+          <div class="code-lines">
+            <div><i>01</i><b class="code-purple">const</b> <strong>ideia</strong> = <em>"transformar";</em></div>
+            <div><i>02</i><b class="code-purple">function</b> <strong>construir</strong>() {</div>
+            <div><i>03</i><span class="indent"></span><b class="code-green">inovar</b>();</div>
+            <div><i>04</i><span class="indent"></span><b class="code-green">desenvolver</b>();</div>
+            <div><i>05</i><span class="indent"></span><b class="code-green">impactar</b>();</div>
+            <div><i>06</i>}</div>
+          </div>
+          <div class="art-card-bottom"><span class="pulse-dot"></span> construindo possibilidades <span>✳</span></div>
+        </div>
+        <div class="floating-chip chip-top"> &lt;/&gt; <span>código</span></div>
+        <div class="floating-chip chip-bottom"><span class="chip-spark">✳</span> inovação em movimento</div>
+        <div class="cactus-shape"><span></span><i></i></div>
+      </div>
+      <a class="scroll-indicator" href="#sobre"><span></span> ROLE PARA DESCOBRIR</a>
+    </section>
+
+    <section class="intro section-wrap reveal" id="sobre">
+      <div class="section-kicker">01 / QUEM SOMOS</div>
+      <div class="intro-content">
+        <h2>O futuro também<br>é construído <span class="gradient-text">aqui.</span></h2>
+        <div class="intro-text">
+          <p>A Sertão Labs é uma fábrica de software vinculada ao Instituto Federal da Paraíba, Campus Princesa Isabel. Unimos conhecimento, colaboração e tecnologia para desenvolver soluções que aproximam pessoas e ideias.</p>
+          <p>Nascemos no Sertão, mas pensamos sem fronteiras. Cada projeto é uma oportunidade de aprender, inovar e gerar impacto.</p>
+          <div class="signature"><span class="signature-line"></span><span>Feito no Sertão, pensado para ir além.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section-wrap" id="atuacao">
+      <div class="section-heading reveal">
+        <div><div class="section-kicker">02 / O QUE FAZEMOS</div><h2>Tecnologia que<br><span class="gradient-text">ganha forma.</span></h2></div>
+        <p>Do primeiro esboço à solução funcionando: exploramos possibilidades e desenvolvemos experiências digitais.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card reveal">
+          <div class="service-icon">⌘</div><span class="card-index">01</span>
+          <h3>Desenvolvimento web</h3>
+          <p>Sites e plataformas digitais pensados para serem úteis, acessíveis e fáceis de usar.</p>
+          <div class="card-arrow">↗</div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon">▦</div><span class="card-index">02</span>
+          <h3>Sistemas e aplicações</h3>
+          <p>Software para organizar processos, resolver problemas e apoiar o dia a dia.</p>
+          <div class="card-arrow">↗</div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon">✳</div><span class="card-index">03</span>
+          <h3>Inovação e pesquisa</h3>
+          <p>Experimentação e desenvolvimento de ideias com propósito e impacto social.</p>
+          <div class="card-arrow">↗</div>
+        </article>
+      </div>
+    </section>
+
+
+    <section class="projects section-wrap" id="projetos">
+      <div class="section-heading reveal">
+        <div><div class="section-kicker">03 / NOSSO PORTFÓLIO</div><h2>Ideias em<br><span class="gradient-text">construção.</span></h2></div>
+        <p>Este espaço será dedicado aos projetos desenvolvidos pela Sertão Labs. Em breve, novas soluções estarão por aqui.</p>
+      </div>
+      <div class="projects-empty reveal">
+        <div class="empty-icon"><span>&lt;/&gt;</span><i></i></div>
+        <span class="empty-label">PORTFÓLIO EM CONSTRUÇÃO</span>
+        <h3>Nossos projetos estarão aqui.</h3>
+        <p>Estamos trabalhando para transformar ideias em soluções. Assim que os projetos forem publicados, você poderá conhecê-los nesta seção.</p>
+        <div class="empty-status"><span class="status-dot"></span> Novidades em breve</div>
+      </div>
+    </section>
+
+    <section class="process section-wrap" id="processo">
+      <div class="section-kicker reveal">04 / COMO TRABALHAMOS</div>
+      <div class="process-layout">
+        <div class="process-heading reveal"><h2>Da ideia ao<br><span class="gradient-text">próximo passo.</span></h2><p>Um caminho colaborativo, com aprendizado em cada etapa.</p></div>
+        <div class="steps">
+          <div class="step reveal"><span>01</span><div><h3>Entender</h3><p>Conhecemos o desafio, as pessoas e o contexto.</p></div><b>↘</b></div>
+          <div class="step reveal"><span>02</span><div><h3>Planejar</h3><p>Definimos objetivos e pensamos na melhor solução.</p></div><b>↘</b></div>
+          <div class="step reveal"><span>03</span><div><h3>Desenvolver</h3><p>Construímos, testamos e evoluímos em equipe.</p></div><b>↘</b></div>
+          <div class="step reveal"><span>04</span><div><h3>Entregar e evoluir</h3><p>Colocamos a solução em prática e aprendemos com o uso.</p></div><b>✳</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section section-wrap reveal" id="contato">
+      <div class="cta-box">
+        <div class="cta-decoration">✳</div>
+        <div class="section-kicker">05 / VAMOS CONSTRUIR?</div>
+        <h2>Uma boa ideia pode<br>começar com uma conversa.</h2>
+        <p>Tem um desafio, uma proposta ou quer conhecer nosso trabalho? Estamos abertos a trocar ideias.</p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:sertaollabs@gmail.com">Enviar um e-mail <span>↗</span></a>
+          <a class="button button-outline" href="https://github.com/sertaollabs-pb" target="_blank" rel="noopener noreferrer">Visitar nosso GitHub <span>↗</span></a>
+        </div>
+        <a class="institution-link" href="https://www.ifpb.edu.br/princesaisabel" target="_blank" rel="noopener noreferrer">IFPB · Campus Princesa Isabel</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap">
+    <a class="brand" href="#inicio">
+      <span class="brand-mark"><svg viewBox="0 0 64 64" fill="none"><path d="M12 23 3 32l9 9M52 23l9 9-9 9" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M31 51V17c0-5 8-5 8 0v8m-8 3h-5c-4 0-6-3-6-7v-4m11 17h5c4 0 6-3 6-7v-3" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M18 56c9-4 19-4 28 0" stroke="#54ed62" stroke-width="3" stroke-linecap="round"/></svg></span>
+      <span class="brand-name">Sertão<span>Labs</span></span>
+    </a>
+    <p>Fábrica de software · IFPB Campus Princesa Isabel</p>
+    <div class="footer-links">
+      <a href="mailto:sertaollabs@gmail.com">sertaollabs@gmail.com</a>
+      <a href="https://github.com/sertaollabs-pb" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </div>
+    <span class="copyright">© <span id="year"></span> Sertão Labs. Feito no Sertão.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
